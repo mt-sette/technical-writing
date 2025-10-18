@@ -111,6 +111,11 @@ body {
     background: #005177;
 }
 
+.cta-btn a {
+    color: var(--color-bg-soft);
+    text-decoration: none;
+}
+
 .about-section, .services-section, .testimonial-section {
     background: var(--color-bg);
     margin: 2rem auto;
