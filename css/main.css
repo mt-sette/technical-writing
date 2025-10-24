@@ -37,9 +37,12 @@ body {
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    object-fit: cover;
+    object-position: center;
 }
 
 .main-nav ul {
