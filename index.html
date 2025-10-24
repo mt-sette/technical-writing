@@ -136,6 +136,66 @@
                     </figure>
                 </div>
             </section>
+            <section class="contact-section">
+                <header>
+                    <h2>Contato</h2>
+                    <p>Entre em contato comigo</p>
+                </header>
+
+                <form
+                    action="https://formspree.io/f/YOUR_FORM_ID"
+                    method="POST"
+                >
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Nome</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Seu nome"
+                            />
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="seu@email.com"
+                            />
+                        </div>
+                    </div>
+
+                    <label for="subject">Assunto</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required
+                        placeholder="Assunto da mensagem"
+                    />
+
+                    <label for="message">Mensagem</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                        placeholder="Digite sua mensagem"
+                    ></textarea>
+
+                    <button type="submit" class="cta-btn">Enviar</button>
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="Novo contato do site"
+                    />
+                    <input type="hidden" name="_replyto" value="" />
+                </form>
+            </section>
         </main>
         <footer class="site-footer">
             <div class="auto-grid">
@@ -174,7 +234,7 @@
                 </ul>
             </div>
             <p class="copyright">
-                &copy; 2024 Technical Writer. All rights reserved.
+                &copy; 2025 Technical Writing. All rights reserved.
             </p>
         </footer>
     </body>
