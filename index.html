@@ -137,6 +137,69 @@
                     </figure>
                 </div>
             </section>
+            <section class="contact-section">
+                <header>
+                    <h2>Contato</h2>
+                    <p>Atendimento remoto e consultoria digital.</p>
+                    <p>
+                        Atendemos empresas de tecnologia, SaaS e startups no
+                        Brasil e no exterior.
+                    </p>
+                    <p>Oferecemos serviços em português e em inglês.</p>
+                </header>
+
+                <form action="https://formspree.io/f/xzzkbnoq" method="POST">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Nome</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Seu nome"
+                            />
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="seu@email.com"
+                            />
+                        </div>
+                    </div>
+
+                    <label for="subject">Assunto</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required
+                        placeholder="Assunto da mensagem"
+                    />
+
+                    <label for="message">Mensagem</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                        placeholder="Digite sua mensagem"
+                    ></textarea>
+
+                    <input
+                        type="text"
+                        name="website"
+                        style="display: none"
+                        tabindex="-1"
+                        autocomplete="off"
+                    />
+                    <button type="submit" class="cta-btn">Enviar</button>
+                </form>
+            </section>
         </main>
         <footer class="site-footer">
             <div class="auto-grid">
@@ -176,7 +239,7 @@
                 </ul>
             </div>
             <p class="copyright">
-                &copy; 2024 Technical Writer. All rights reserved.
+                &copy; 2025 Technical Writing. All rights reserved.
             </p>
         </footer>
     </body>
