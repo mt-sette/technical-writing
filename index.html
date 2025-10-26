@@ -139,13 +139,15 @@
             <section class="contact-section">
                 <header>
                     <h2>Contato</h2>
-                    <p>Entre em contato comigo</p>
+                    <p>Atendimento remoto e consultoria digital.</p>
+                    <p>
+                        Atendemos empresas de tecnologia, SaaS e startups no
+                        Brasil e no exterior.
+                    </p>
+                    <p>Oferecemos serviços em português e em inglês.</p>
                 </header>
 
-                <form
-                    action="https://formspree.io/f/xzzkbnoq"
-                    method="POST"
-                >
+                <form action="https://formspree.io/f/xzzkbnoq" method="POST">
                     <div class="form-row">
                         <div class="form-field">
                             <label for="name">Nome</label>
@@ -187,13 +189,14 @@
                         placeholder="Digite sua mensagem"
                     ></textarea>
 
-                    <button type="submit" class="cta-btn">Enviar</button>
                     <input
-                        type="hidden"
-                        name="_subject"
-                        value="Novo contato do site"
+                        type="text"
+                        name="website"
+                        style="display: none"
+                        tabindex="-1"
+                        autocomplete="off"
                     />
-                    <input type="hidden" name="_replyto" value="" />
+                    <button type="submit" class="cta-btn">Enviar</button>
                 </form>
             </section>
         </main>
